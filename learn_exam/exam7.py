@@ -1,0 +1,7 @@
+a =input()
+a1 = a.replace('[','(')
+a2 = a1.replace(']',')')
+a3 = a2.replace('{','(')
+a4 = a3.replace('}',')')
+b = eval(a4)
+print(int(b))
